@@ -10,6 +10,10 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/plex')
+def plex():
+    return render_template('plex.html')
+
 # settings page
 @app.route('/settings')
 def settings():
